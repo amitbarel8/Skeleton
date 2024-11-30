@@ -22,7 +22,7 @@ const string Settlement::toString() const{
 
 //enum class SettlementType {VILLAGE, CITY, METROPOLIS,} ->> reference to the header
     string myType="";
- 
+ //the switch was incorrecte
     switch(type){
         case SettlementType::VILLAGE: 
             myType = "VILLAGE";
